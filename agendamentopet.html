@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agendamento - PetCare</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css"
+        href="css/estiloagendamento.css">
+
+        <link rel="icon" type="image/png" href="img/logopetcare-icon.png">
+    </head>
+
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li id="logo"><a href="index.html"><img src="img/logopetcare.png" alt="logo"></a><li>
+                <div id="menu-itens">
+                    <li id="itens"><a href="cadastrarpet.html">Cadastrar Pet</a></li>
+                    <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+
+        <div id="container">
+
+            <img class="img-cadastro" src="img/logopetcare.png">
+
+            <div class="button-login">
+                <h2>Agende uma consulta para seu Pet</h2>
+            </div>
+            
+            <div class="formulario">
+                <form>
+                    <label for="pet-name">Nome:</label>
+                    <input type="text" id="pet-name" name="pet-name" required placeholder="Escolha um animal cadastrado">
+        
+                    <br>
+
+                    <label for="date">Data:</label>
+                    <input type="date" id="date" name="date" required placeholder="Escolha uma data">
+
+                    <br>
+                    
+                    <label for="time">Hora:</label>
+                    <input type="time" id="time" name="time" required placeholder="Selecione um horário disponível">
+
+                    <br>
+
+                    <label for="motivo">Motivo:</label>
+                    <input type="text" id="motivo" name="motivo" required placeholder="Causa do agendamento">
+
+        
+                    <label for="unit">Unid:</label>
+                    <select id="unidade" name="unidade">
+                        <option value="" disabled selected>Escolha uma unidade de atendimento</option>
+                        <option value="PetFeliz">PetFeliz</option>
+                        <option value="Petz">Petz</option>
+                        <option value="Pet Universo">Pet Universo</option>
+                        <option value="Mundo Pet">Mundo Pet</option>
+                        <option value="VetMed">VetMed</option>
+                        <option value="Centro Vet Pets">Centro Vet Pets</option>
+                    </select>
+
+                    <br>
+        
+                    <div>
+                        <button type="button" class="submit" onclick="window.location.href = 'minhasconsultas.html' ">Agendar Consulta</button>
+                    </div>
+                </form>
+                <img class="img-footer" src="img/patas_completas.png">
+            </div>
+        </div>
+        
+    </body>
+
+    <footer>
+        
+    </footer>
+
+</html>
+
+
+
+</body>
+</html>

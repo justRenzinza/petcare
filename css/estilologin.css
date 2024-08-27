@@ -9,7 +9,7 @@ body{
     height: 430px;
     background-color: rgba(255, 255, 255, 0.575);
     margin: 0 auto;
-    margin-top: 190px;
+    margin-top: 100px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     text-align: center;
@@ -95,7 +95,7 @@ ul{
 
 .img-footer{
     margin-left: -100%;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #menu-itens{

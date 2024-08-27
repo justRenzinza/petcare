@@ -46,10 +46,11 @@ li img {
 
 #container{
     width: 500px;
-    height: 565px;
+    height: 620px;
     background-color: rgba(255, 255, 255, 0.726);
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     text-align: center;
@@ -96,6 +97,16 @@ button.submit {
     text-transform:uppercase ;
 }
 
+.formulario {
+    height: 100px;
+    width: 500px;
+}
+
+#agendamento-form {
+    width: 500px;
+    height: 375px;
+}
+
 .img-cadastro {
     padding-top: 30px;
     
@@ -109,4 +120,9 @@ button.submit {
 select{
     width: 412px;
     padding: 10px;
+    margin-bottom: 12px;
+}
+
+#agendamento-form .submit {
+    margin-top: 17px;
 }

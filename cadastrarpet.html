@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastrar Pet - PetCare</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css"
+        href="css/estilocadpet.css">
+
+        <link rel="icon" type="image/png" href="img/logopetcare-icon.png">
+    </head>
+
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li id="logo"><a href="index.html"><img src="img/logopetcare.png" alt="logo"></a><li>
+                <div id="menu-itens">
+                    <li id="itens"><a href="agendamentopet.html">Agendar Consulta</a></li>
+                    <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+
+        <div id="container">
+
+            <img class="img-cadastro" src="img/logopetcare.png">
+
+            <div class="button-login">
+                <h2>INFORME OS DADOS DO SEU PET PARA FAZER O CADASTRO</h2>
+            </div>
+            
+            <form>
+                <div>
+                    <input class="nome-pet" type="text" name="nome-pet"  
+                    required placeholder="Nome do Animal">
+                </div>
+        
+                <div>
+                    <input class="raca-pet" type="text" name="raca-pet" 
+                    placeholder="Raça">
+                </div>
+
+                <div>
+                    <input class="tipo-pet" type="text" name="tipo-pet" 
+                    placeholder="Espécie">
+                </div>
+
+                <div>
+                    <input class="idade-pet" type="text" name="idade-pet" 
+                    placeholder="Idade (anos)">
+                </div>
+
+                <div>
+                    <input class="tipo-sanguineo-pet" type="text" name="tipo-sanguineo-pet"  
+                    placeholder="Tipo Sanguíneo">
+                </div>
+
+                <div>
+                    <input class="enfermidades-pet" type="text" name="enfermidades-pet"  
+                    placeholder="Enfermidades">
+                </div>
+
+                <div>
+                    <input class="vacinas-pet" type="text" name="vacinas-pet"  
+                    placeholder="Vacinas tomadas">
+                </div>
+
+                <div>
+                    <button type="button" class="submit" onclick="window.location.href = 'agendamentopet.html' ">Cadastrar Pet</button>
+                </div>
+            </form>
+            <img class="img-footer" src="img/patas_completas.png">
+        </div>
+        
+    </body>
+
+    <footer>
+        
+    </footer>
+
+</html>
